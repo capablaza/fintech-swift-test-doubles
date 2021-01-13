@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B0B4C225AF22BB001FD455 /* TransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4C125AF22BB001FD455 /* TransferResponse.swift */; };
+		07B0B4C625AF22D4001FD455 /* TransferRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4C525AF22D4001FD455 /* TransferRequest.swift */; };
+		07B0B4CA25AF2399001FD455 /* TransferClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4C925AF2399001FD455 /* TransferClient.swift */; };
+		07B0B4D225AF27B0001FD455 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4D125AF27B0001FD455 /* Storage.swift */; };
+		07B0B4D825AF300E001FD455 /* TransferClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4D725AF300E001FD455 /* TransferClientResponse.swift */; };
+		07B0B4E325AF32E3001FD455 /* TransferServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4E225AF32E3001FD455 /* TransferServiceTest.swift */; };
 		07B3884D25AF213E000BD0CF /* FintechAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3884C25AF213E000BD0CF /* FintechAppApp.swift */; };
 		07B3884F25AF213E000BD0CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3884E25AF213E000BD0CF /* ContentView.swift */; };
 		07B3885125AF2141000BD0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B3885025AF2141000BD0CF /* Assets.xcassets */; };
 		07B3885425AF2141000BD0CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B3885325AF2141000BD0CF /* Preview Assets.xcassets */; };
 		07B3885F25AF2142000BD0CF /* FintechAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3885E25AF2142000BD0CF /* FintechAppTests.swift */; };
-		07B3886A25AF2142000BD0CF /* FintechAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3886925AF2142000BD0CF /* FintechAppUITests.swift */; };
+		07B3888025AF21BA000BD0CF /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3887F25AF21BA000BD0CF /* TransferService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,16 +29,15 @@
 			remoteGlobalIDString = 07B3884825AF213E000BD0CF;
 			remoteInfo = FintechApp;
 		};
-		07B3886625AF2142000BD0CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07B3884125AF213E000BD0CF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07B3884825AF213E000BD0CF;
-			remoteInfo = FintechApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B0B4C125AF22BB001FD455 /* TransferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferResponse.swift; sourceTree = "<group>"; };
+		07B0B4C525AF22D4001FD455 /* TransferRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferRequest.swift; sourceTree = "<group>"; };
+		07B0B4C925AF2399001FD455 /* TransferClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferClient.swift; sourceTree = "<group>"; };
+		07B0B4D125AF27B0001FD455 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		07B0B4D725AF300E001FD455 /* TransferClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferClientResponse.swift; sourceTree = "<group>"; };
+		07B0B4E225AF32E3001FD455 /* TransferServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferServiceTest.swift; sourceTree = "<group>"; };
 		07B3884925AF213E000BD0CF /* FintechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FintechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B3884C25AF213E000BD0CF /* FintechAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechAppApp.swift; sourceTree = "<group>"; };
 		07B3884E25AF213E000BD0CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,9 +47,7 @@
 		07B3885A25AF2142000BD0CF /* FintechAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B3885E25AF2142000BD0CF /* FintechAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechAppTests.swift; sourceTree = "<group>"; };
 		07B3886025AF2142000BD0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07B3886525AF2142000BD0CF /* FintechAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07B3886925AF2142000BD0CF /* FintechAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechAppUITests.swift; sourceTree = "<group>"; };
-		07B3886B25AF2142000BD0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B3887F25AF21BA000BD0CF /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +65,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07B3886225AF2142000BD0CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +73,6 @@
 			children = (
 				07B3884B25AF213E000BD0CF /* FintechApp */,
 				07B3885D25AF2142000BD0CF /* FintechAppTests */,
-				07B3886825AF2142000BD0CF /* FintechAppUITests */,
 				07B3884A25AF213E000BD0CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +82,6 @@
 			children = (
 				07B3884925AF213E000BD0CF /* FintechApp.app */,
 				07B3885A25AF2142000BD0CF /* FintechAppTests.xctest */,
-				07B3886525AF2142000BD0CF /* FintechAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +94,12 @@
 				07B3885025AF2141000BD0CF /* Assets.xcassets */,
 				07B3885525AF2141000BD0CF /* Info.plist */,
 				07B3885225AF2141000BD0CF /* Preview Content */,
+				07B3887F25AF21BA000BD0CF /* TransferService.swift */,
+				07B0B4C125AF22BB001FD455 /* TransferResponse.swift */,
+				07B0B4C525AF22D4001FD455 /* TransferRequest.swift */,
+				07B0B4C925AF2399001FD455 /* TransferClient.swift */,
+				07B0B4D125AF27B0001FD455 /* Storage.swift */,
+				07B0B4D725AF300E001FD455 /* TransferClientResponse.swift */,
 			);
 			path = FintechApp;
 			sourceTree = "<group>";
@@ -117,17 +117,9 @@
 			children = (
 				07B3885E25AF2142000BD0CF /* FintechAppTests.swift */,
 				07B3886025AF2142000BD0CF /* Info.plist */,
+				07B0B4E225AF32E3001FD455 /* TransferServiceTest.swift */,
 			);
 			path = FintechAppTests;
-			sourceTree = "<group>";
-		};
-		07B3886825AF2142000BD0CF /* FintechAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				07B3886925AF2142000BD0CF /* FintechAppUITests.swift */,
-				07B3886B25AF2142000BD0CF /* Info.plist */,
-			);
-			path = FintechAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +160,6 @@
 			productReference = 07B3885A25AF2142000BD0CF /* FintechAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		07B3886425AF2142000BD0CF /* FintechAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07B3887425AF2142000BD0CF /* Build configuration list for PBXNativeTarget "FintechAppUITests" */;
-			buildPhases = (
-				07B3886125AF2142000BD0CF /* Sources */,
-				07B3886225AF2142000BD0CF /* Frameworks */,
-				07B3886325AF2142000BD0CF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				07B3886725AF2142000BD0CF /* PBXTargetDependency */,
-			);
-			name = FintechAppUITests;
-			productName = FintechAppUITests;
-			productReference = 07B3886525AF2142000BD0CF /* FintechAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +173,6 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					07B3885925AF2142000BD0CF = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 07B3884825AF213E000BD0CF;
-					};
-					07B3886425AF2142000BD0CF = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 07B3884825AF213E000BD0CF;
 					};
@@ -223,7 +193,6 @@
 			targets = (
 				07B3884825AF213E000BD0CF /* FintechApp */,
 				07B3885925AF2142000BD0CF /* FintechAppTests */,
-				07B3886425AF2142000BD0CF /* FintechAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +214,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07B3886325AF2142000BD0CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B3888025AF21BA000BD0CF /* TransferService.swift in Sources */,
+				07B0B4CA25AF2399001FD455 /* TransferClient.swift in Sources */,
+				07B0B4D825AF300E001FD455 /* TransferClientResponse.swift in Sources */,
+				07B0B4C225AF22BB001FD455 /* TransferResponse.swift in Sources */,
 				07B3884F25AF213E000BD0CF /* ContentView.swift in Sources */,
 				07B3884D25AF213E000BD0CF /* FintechAppApp.swift in Sources */,
+				07B0B4D225AF27B0001FD455 /* Storage.swift in Sources */,
+				07B0B4C625AF22D4001FD455 /* TransferRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B0B4E325AF32E3001FD455 /* TransferServiceTest.swift in Sources */,
 				07B3885F25AF2142000BD0CF /* FintechAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07B3886125AF2142000BD0CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07B3886A25AF2142000BD0CF /* FintechAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +248,6 @@
 			isa = PBXTargetDependency;
 			target = 07B3884825AF213E000BD0CF /* FintechApp */;
 			targetProxy = 07B3885B25AF2142000BD0CF /* PBXContainerItemProxy */;
-		};
-		07B3886725AF2142000BD0CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07B3884825AF213E000BD0CF /* FintechApp */;
-			targetProxy = 07B3886625AF2142000BD0CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,44 +452,6 @@
 			};
 			name = Release;
 		};
-		07B3887525AF2142000BD0CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FintechAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.FintechAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FintechApp;
-			};
-			name = Debug;
-		};
-		07B3887625AF2142000BD0CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FintechAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.FintechAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FintechApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,15 +478,6 @@
 			buildConfigurations = (
 				07B3887225AF2142000BD0CF /* Debug */,
 				07B3887325AF2142000BD0CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		07B3887425AF2142000BD0CF /* Build configuration list for PBXNativeTarget "FintechAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07B3887525AF2142000BD0CF /* Debug */,
-				07B3887625AF2142000BD0CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
