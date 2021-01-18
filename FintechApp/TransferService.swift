@@ -6,7 +6,7 @@ public class TransferService{
     var repository:Storage
     
     
-    init(trxClient:TransferClient, storage:Storage){
+    public init(trxClient:TransferClient, storage:Storage){
         self.client = trxClient
         self.repository = storage
     }

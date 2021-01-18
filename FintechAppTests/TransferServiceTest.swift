@@ -1,5 +1,6 @@
 
 import XCTest
+@testable import FintechApp
 
 class TransferServiceTest: XCTestCase {
 
@@ -10,8 +11,7 @@ class TransferServiceTest: XCTestCase {
     override func tearDownWithError() throws {
     }
 
-    func testGivenTransRequestWhenAmountIsLessThanZeroThenResponseIs520() throws {
-        
+    func testGivenTransRequestWhenAmountIsLessThanZeroThenResponseIs520() throws {        
     }
     
     func testGivenTransRequestWhenAmountIsEqualToZeroThenResponseIs520() throws {

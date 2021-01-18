@@ -13,6 +13,10 @@
 		07B0B4D225AF27B0001FD455 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4D125AF27B0001FD455 /* Storage.swift */; };
 		07B0B4D825AF300E001FD455 /* TransferClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4D725AF300E001FD455 /* TransferClientResponse.swift */; };
 		07B0B4E325AF32E3001FD455 /* TransferServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4E225AF32E3001FD455 /* TransferServiceTest.swift */; };
+		07B0B4E725B5D405001FD455 /* TransferServiceSolutionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4E625B5D405001FD455 /* TransferServiceSolutionTest.swift */; };
+		07B0B4F825B5D6B6001FD455 /* TransferClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4F725B5D6B6001FD455 /* TransferClientStub.swift */; };
+		07B0B4FC25B5D78F001FD455 /* StorageDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4FB25B5D78F001FD455 /* StorageDummy.swift */; };
+		07B0B50025B5DBBC001FD455 /* StorageFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B4FF25B5DBBC001FD455 /* StorageFake.swift */; };
 		07B3884D25AF213E000BD0CF /* FintechAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3884C25AF213E000BD0CF /* FintechAppApp.swift */; };
 		07B3884F25AF213E000BD0CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3884E25AF213E000BD0CF /* ContentView.swift */; };
 		07B3885125AF2141000BD0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B3885025AF2141000BD0CF /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 		07B0B4D125AF27B0001FD455 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		07B0B4D725AF300E001FD455 /* TransferClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferClientResponse.swift; sourceTree = "<group>"; };
 		07B0B4E225AF32E3001FD455 /* TransferServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferServiceTest.swift; sourceTree = "<group>"; };
+		07B0B4E625B5D405001FD455 /* TransferServiceSolutionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferServiceSolutionTest.swift; sourceTree = "<group>"; };
+		07B0B4F725B5D6B6001FD455 /* TransferClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferClientStub.swift; sourceTree = "<group>"; };
+		07B0B4FB25B5D78F001FD455 /* StorageDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageDummy.swift; sourceTree = "<group>"; };
+		07B0B4FF25B5DBBC001FD455 /* StorageFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageFake.swift; sourceTree = "<group>"; };
 		07B3884925AF213E000BD0CF /* FintechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FintechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B3884C25AF213E000BD0CF /* FintechAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechAppApp.swift; sourceTree = "<group>"; };
 		07B3884E25AF213E000BD0CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 				07B3885E25AF2142000BD0CF /* FintechAppTests.swift */,
 				07B3886025AF2142000BD0CF /* Info.plist */,
 				07B0B4E225AF32E3001FD455 /* TransferServiceTest.swift */,
+				07B0B4E625B5D405001FD455 /* TransferServiceSolutionTest.swift */,
+				07B0B4F725B5D6B6001FD455 /* TransferClientStub.swift */,
+				07B0B4FB25B5D78F001FD455 /* StorageDummy.swift */,
+				07B0B4FF25B5DBBC001FD455 /* StorageFake.swift */,
 			);
 			path = FintechAppTests;
 			sourceTree = "<group>";
@@ -236,7 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B0B4FC25B5D78F001FD455 /* StorageDummy.swift in Sources */,
 				07B0B4E325AF32E3001FD455 /* TransferServiceTest.swift in Sources */,
+				07B0B4F825B5D6B6001FD455 /* TransferClientStub.swift in Sources */,
+				07B0B4E725B5D405001FD455 /* TransferServiceSolutionTest.swift in Sources */,
+				07B0B50025B5DBBC001FD455 /* StorageFake.swift in Sources */,
 				07B3885F25AF2142000BD0CF /* FintechAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

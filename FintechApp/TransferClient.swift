@@ -1,5 +1,5 @@
 import Foundation
 
-protocol TransferClient {
+public protocol TransferClient {
     func transfer(request:TransferRequest) -> TransferClientResponse
 }
